@@ -1,1 +1,1 @@
-fuck you asshole
+this is my code and linux stady
