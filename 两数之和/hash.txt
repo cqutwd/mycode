@@ -1,0 +1,7 @@
+HASH_FIND_INT是一个宏定义，用于哈希表中查找一个整型键值对应的元素
+函数原型：
+void HASH_FIND_INT(struct hashtable* head,void* key,struct my_struct* out)
+out 为返回指针，指向对应的结构体
+如果哈希表中没有对应的key，则out为NULL
+HASH_ADD_INT
+对应上面的out要先申请内存，赋值后再调用

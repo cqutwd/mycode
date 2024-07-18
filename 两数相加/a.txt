@@ -1,0 +1,6 @@
+对两个长度不同的链表操作时，考虑三目运算符
+尾插法新方法
+tail->next = malloc(sizeof(struct ListNode));
+tail->next->val = carry;
+tail = tail->next;
+tail->next = NULL;
